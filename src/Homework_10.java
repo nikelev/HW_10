@@ -24,7 +24,7 @@ public class Homework_10 {
     public static void figureTask2(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
-                if (i == 1 || i == n || i == j || j == 1 || j == n|| j==n-i+1) {
+                if (i == 1 || i == n || i == j || j == 1 || j == n || j == n - i + 1) {
                     System.out.print("*" + "\t");
                 } else
                     System.out.print("\t");
@@ -37,7 +37,7 @@ public class Homework_10 {
     public static void figureTask3(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
-                if (i == 1 || i == n || j == 1 || j == n|| j==n-i+1||j>=n/2 ) {
+                if (i == 1 || i == n || j == 1 || j == n || j == n - i + 1 || j + i > n) {
                     System.out.print("*" + "\t");
                 } else
                     System.out.print("\t");
